@@ -1,0 +1,57 @@
+ Chapter 2: What Is Programming Language
+
+1. Human Languages
+- Examples: Hindi, English, Punjabi, etc.
+- Humans use these to communicate with each other.
+- Computers cannot understand human languages directly.
+
+2. Computer Language (Machine Language)
+- Computers only understand 0 (off) and 1 (on).
+- This is called machine language or binary code.
+- Very hard for humans to read and write.
+
+3.Assembly Language
+ - A step above machine language.
+ - Uses short codes (called mnemonics) like ADD, MOV, SUB.
+ - Easier than pure 0s and 1s, but still close to hardware.
+ - Needs an assembler to convert assembly code into machine code.
+
+4. High‑Level Languages
+- Examples: Java, Python, C++.
+- Easy for humans to read and write (similar to English).
+- Not understood directly by computers.
+- Needs a compiler or interpreter to translate into machine language.
+
+5. Compiler Role
+- A compiler converts high‑level language (like Java) into low‑level language (machine/assembly).
+- This allows the computer to execute the program.
+- Without a compiler, the computer cannot understand high‑level code.
+
+
+In Java, we don’t go directly from high‑level language to machine language.
+First, the compiler makes bytecode.
+Then the JVM takes that bytecode and translates it into machine language.
+That’s why Java programs can run anywhere — the JVM does the heavy lifting.
+
+Here is the detailed explanation
+
+1. Writing Code
+- You write Java code in a high‑level language (easy for humans to read).
+- Example:
+System.out.println("Hello Students");
+2. Compilation
+- Java uses a compiler (javac) to translate high‑level code into bytecode.
+- Bytecode is not machine language, but a special intermediate form.
+- File created: HelloStudents.class.
+3. JVM (Java Virtual Machine)
+- Bytecode runs inside the Java Virtual Machine (JVM).
+- JVM acts like a translator between bytecode and the computer’s machine language (0s and 1s).
+- This makes Java platform‑independent — the same .class file runs on Windows, Mac, Linux, etc.
+4. Execution
+- JVM converts bytecode into machine code at runtime using an interpreter or JIT (Just‑In‑Time) compiler.
+- Finally, the computer executes the instructions.
+
+
+
+
+
