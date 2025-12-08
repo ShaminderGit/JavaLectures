@@ -1,0 +1,83 @@
+Section Two
+Chapter One
+How to run Java program using CMD without IDE
+
+1.Make sure you have the Java Development Kit (JDK) installed.
+-To check, open CMD and type: java -version and java -version
+2.Set Environment Variables (if needed)
+-Ensure the bin folder of JDK is added to your PATH.
+3.Write Your Java File
+ - Create a file, e.g., HelloWorld.java:
+
+ public class HelloWorld {
+     public static void main(String[] args) {
+         System.out.println("Hello, World!");
+     }
+ }
+ 4. Open CMD and Navigate to File Location
+ - Use cd to change directory to where your file is saved:
+ - cd C:\Users\YourName\Desktop
+ 5. Compile the Java File
+ - Run:
+   javac HelloWorld.java
+ - This generates a HelloWorld.class file (the bytecode).
+ 6. Run the Compiled Class
+ - Execute:
+ - java HelloWorld
+ - Output should be:
+ Hello, World!
+
+
+Flow Diagram
+   ┌─────────────────────┐
+   │   Write Code        │
+   │   HelloWorld.java   │
+   └─────────┬───────────┘
+             │
+             ▼
+   ┌─────────────────────┐
+   │   Compile Code       │
+   │   javac HelloWorld.java
+   └─────────┬───────────┘
+             │
+             ▼
+   ┌─────────────────────┐
+   │   Bytecode File      │
+   │   HelloWorld.class   │
+   └─────────┬───────────┘
+             │
+             ▼
+   ┌─────────────────────┐
+   │   Run Program        │
+   │   java HelloWorld    │
+   └─────────┬───────────┘
+             │
+             ▼
+   ┌─────────────────────┐
+   │   Output             │
+   │   "Hello, World!"    │
+   ─────────────────────┘
+
+7. Difference between java and javac
+
+java-version
+Runs the Java Runtime Environment (JRE)
+The version of the Java interpreter (the program that executes compiled .class bytecode)
+
+javac-version
+Runs the Java Compiler (part of JDK)
+The version of the Java compiler (the program that converts .java source code into .class bytecode)
+
+8.  .java
+-Contains java source code
+-High Level Human Readable
+-Used for Development
+-File is editable
+
+9.   .class
+
+-Contains java bytecode
+-For consumption of JVM
+-Used for execution
+-Not meant to be edited
+

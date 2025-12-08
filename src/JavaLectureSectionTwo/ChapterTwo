@@ -1,0 +1,65 @@
+Section Two
+Chapter Two
+
+The Java Class
+
+This is a class
+
+public class MyFirstApp {
+    public static void main(String[] args) {
+
+    }
+}
+
+1. public class MyFirstApp {
+- public → Means anyone can use this class.
+- class → A blueprint or container where your code lives.
+- MyFirstApp → The name of the class.
+- The file name must be the same: MyFirstApp.java.
+- { → Opening curly brace → says “everything inside belongs to this class.”
+Think of this as opening the door to your program’s house.
+
+2. public static void main(String[] args) {
+This is the starting point of every Java program. Let’s break each word:
+- public → Anyone can run this method.
+- static → Belongs to the class itself, not an object.
+- void → Means this method doesn’t return anything.
+- main → Special name → Java looks for this method first when running.
+- (String[] args) → A list (array) of words you can pass from the command line.
+- { → Opening curly brace → says “everything inside belongs to this method.”
+Think of this as the main room inside the house where the action starts.
+
+3. System.out.print("I love Java");
+- System → A built-in class in Java.
+- out → Represents the screen (standard output).
+- print → Prints text on the screen (without moving to a new line).
+- ("I love Java") → The message you want to show.
+- ; → Semicolon → like a full stop at the end of a sentence.
+This is the activity happening inside the room.
+
+4. } (closing brace for main method)
+- Marks the end of the main method.
+ Think of it as closing the door to the room.
+
+5. } (closing brace for class)
+- Marks the end of the class.
+Think of it as closing the door to the house.
+
+ Beginner-Friendly Analogy
+Imagine you’re writing a story inside a house:
+- Class { } → The house itself.
+- Main method { } → The main room where the story begins.
+- Statements (System.out.print) → The actions happening in the room.
+- Semicolon ; → A full stop at the end of each instruction.
+- Curly braces { } → Walls that show where things start and end.
+Flow: House → Room → Action → Close Room → Close House.
+
+Visual Nesting Diagram
+Class MyFirstApp {
+    └── Main Method {
+            └── Statement (System.out.print)
+        }  <-- end of method
+}  <-- end of class
+
+
+
