@@ -1,0 +1,29 @@
+SectionOne
+ChapterFour What is Syntax?
+
+
+In programming, syntax is the set of rules that define how code must be
+written so that the computer can understand and run it.
+If you break the rules (like missing a semicolon or using the wrong keyword),
+the program won’t work.
+
+1. What is Syntax?
+- Syntax = Grammar of a programming language.
+- Just like English has grammar rules (subject + verb + object), programming languages have syntax rules.
+- If you don’t follow these rules, the computer gives an error.
+
+2. Why Syntax Matters
+- Ensures the computer can read and execute your instructions.
+- Helps programmers communicate clearly with the machine.
+- Prevents confusion and mistakes in code.
+
+3. Example in Human Language
+- Correct English: “I am learning Java.”
+- Wrong English: “Java learning am I.”
+- Both use the same words, but only the first follows grammar rules.
+- Same idea applies in programming.
+
+
+
+
+

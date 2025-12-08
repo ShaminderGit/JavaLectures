@@ -1,0 +1,33 @@
+SectionOne Chapter 3
+
+1. What is an Algorithm?
+- An algorithm is a step‑by‑step set of instructions to solve a problem or perform a task.
+- Just like a recipe in cooking: it tells you what to do first, second, third… until the dish is ready.
+- In programming, algorithms guide the computer on how to solve problems.
+2. Why Do We Need Algorithms?
+- They make problem solving organized.
+- Help programmers write code that is clear and efficient.
+- Same algorithm can be used in different programming languages
+3. Example (Daily Life)
+Algorithm to make tea:
+- Boil water.
+- Add tea leaves.
+- Add sugar and milk.
+- Stir for 2 minutes.
+- Pour into a cup.
+- Tea is ready.
+This is not code, but it shows how step‑by‑step instructions lead to a result
+4. Example (Programming)
+Algorithm to add two numbers:
+- Start.
+- Take input of two numbers (say A and B).
+- Add A and B.
+- Store the result in C.
+- Print C.
+- Stop.
+Key Idea
+- Algorithm = Recipe for solving a problem.
+- Without an algorithm, programming would be confusing and unorganized.
+
+
+
