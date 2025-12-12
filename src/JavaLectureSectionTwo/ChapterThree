@@ -1,0 +1,56 @@
+The Three Pillars of Java
+1. JVM (Java Virtual Machine)
+- Role: The engine that runs Java bytecode (.class files).
+- How it works:
+- Takes compiled bytecode and translates it into machine code for the host OS.
+- Handles memory management (heap, stack), garbage collection, and security.
+- Platform dependency:
+- JVM itself is platform‑dependent (different builds for Windows, Linux, Mac).
+- But bytecode is platform‑independent → “Write Once, Run Anywhere.”
+- JVM is why Java programs can run on any system, as long as the right JVM is installed.
+- Platform independent (effect):
+- The bytecode it runs (.class files) is the same everywhere.
+- That’s why Java programs don’t need to be rewritten for each OS — the JVM handles the differences.
+ “JVM is platform dependent, but it makes Java bytecode platform independent.”
+
+
+2. JRE (Java Runtime Environment)
+- Role: Provides everything needed to run Java programs.
+- Contents:
+- JVM (the engine).
+- Core libraries (e.g., java.lang, java.util, java.io).
+- Supporting files (configuration, runtime classes).
+- Use case: End‑users who just want to run Java apps install the JRE.
+- Key point for students: JRE = JVM + libraries → the “playground” for running Java.
+- Platform dependent:
+- The JRE package includes the JVM and supporting libraries, and it’s compiled differently for each OS.
+- Platform independent (effect):
+- The Java libraries inside the JRE (like java.util, java.io) are the same across all platforms.
+- So any Java program using these libraries runs consistently everywhere.
+JRE is platform dependent because it bundles a JVM for each OS, but it provides a consistent environment across platforms.”
+
+
+3. JDK (Java Development Kit)
+- Full toolkit for developers to write, compile, and debug Java code.
+- Contents:
+- Compiler (javac) → converts .java source into .class bytecode.
+- Debugging tools (jdb), documentation tools (javadoc).
+- Includes the JRE (so you can run what you compile).
+- Use case: Required if you want to develop Java programs.
+- JDK = JRE + development tools → the “workshop” for building Java.
+- Platform dependent:
+- The JDK tools (compiler javac, debugger, etc.) are built for specific operating systems.
+- Platform independent (effect):
+- The bytecode produced by the JDK compiler is platform independent.
+- Developers can write code once, and the compiled .class files will run anywhere a JVM exists.
+“JDK is platform dependent as a toolkit, but the code it produces is platform independent.”
+
+
+The JVM is not built by one company only. Oracle maintains the official HotSpot JVM,
+but many organizations (IBM, Azul, Amazon, Red Hat) also build their own JVMs.
+That’s why Java is portable and flexible the bytecode is universal, but each vendor provides a
+JVM tailored to their platform.
+
+
+
+
