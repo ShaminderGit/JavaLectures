@@ -1,3 +1,6 @@
+Section Two
+Chapter 3 JDK VS JRE VS JVM
+
 The Three Pillars of Java
 1. JVM (Java Virtual Machine)
 - Role: The engine that runs Java bytecode (.class files).
