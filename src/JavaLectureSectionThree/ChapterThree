@@ -1,4 +1,7 @@
+Chapter 3
+
 Rules for Identifiers in Java
+
  1. Allowed Characters
 - Can contain letters (A–Z, a–z), digits (0–9), underscore _, and dollar sign $.
 - Analogy: Think of identifiers as name tags on lockers — you can use letters, numbers, or simple symbols like _ and $.

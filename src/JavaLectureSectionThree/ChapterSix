@@ -1,0 +1,49 @@
+Section Three
+Chapter 6
+Type Conversion and Casting in Java
+
+What is Type Conversion?
+- Type Conversion means changing a variable from one data type to another.
+- In Java, this happens in two ways:
+- Implicit Conversion (Type Promotion / Widening)
+- Explicit Conversion (Type Casting / Narrowing)
+ Analogy:
+Think of it as pouring water into containers of different sizes:
+- If you pour water from a small glass into a bigger jug → safe, automatic (widening).
+- If you pour water from a big jug into a small glass → risky, must be done carefully (narrowing).
+
+ 1. Implicit Conversion (Widening)
+- Happens automatically when a smaller type is assigned to a larger type.
+- No data loss, safe conversion.
+- Example: byte → short → int → long → float → double
+ 2. Explicit Conversion (Narrowing / Casting)
+- Done manually using parentheses (type).
+- Risky because data may be lost.
+- Example: double → float → long → int → short → byte
+
+double pi = 3.14159;
+int value = (int) pi;   // explicit casting
+System.out.println(value); // Output: 3
+
+Widening (Automatic, Safe)
+byte → short → int → long → float → double
+
+Narrowing (Manual, Risky)
+double → float → long → int → short → byte
+
+ Special Cases
+- char to int → Unicode value is stored.
+char ch = 'A';
+int code = ch;   // implicit
+System.out.println(code); // Output: 65
+- int to char → Explicit casting required.
+int code = 66;
+char ch = (char) code;
+System.out.println(ch); // Output: B
+- Type Casting in Expressions
+int a = 5, b = 2;
+double result = (double) a / b; // Output: 2.5
+
+
+
+
