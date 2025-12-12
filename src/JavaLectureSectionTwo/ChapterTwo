@@ -62,4 +62,23 @@ Class MyFirstApp {
 }  <-- end of class
 
 
+Importance of Main Method
+1. Entry Point for Execution
+- Every Java program needs a starting point.
+- The JVM looks for public static void main(String[] args) as the default entry method.
+- If the main() method is missing, the program compiles but cannot execute.
+
+2. Why the Signature Matters
+- public → Accessible by the JVM from outside the class.
+- static → Can be called without creating an object of the class.
+- void → Doesn’t return anything to the JVM.
+- String[] args → Accepts command‑line arguments for runtime input.
+If you change this signature, the JVM won’t recognize it as the entry point.
+
+3. Bridge Between Code and JVM
+- Every Java program needs a starting point.
+- The JVM looks for public static void main(String[] args) as the default entry method.
+- If the main() method is missing, the program compiles but cannot execute.
+
+
 
