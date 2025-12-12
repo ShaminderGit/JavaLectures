@@ -1,0 +1,73 @@
+Data Types in Java
+
+1. Introduction to Data Types
+- Definition: A data type defines the kind of data a variable can hold and how much memory it needs.
+- Analogy: Think of data types as different sizes and shapes of lockers in a hostel:
+- Small lockers for tiny items (byte).
+- Standard lockers for everyday items (int).
+- Big lockers for huge items (long).
+- Special lockers for letters (char) or switches (boolean).
+
+2.Categories of Data Types
+Java data types are divided into two main categories:
+  - Primitive Data Types → Basic building blocks (8 types).
+  - Non‑Primitive Data Types → Reference types like Strings, Arrays, Classes, Objects
+
+ Key Points:
+- Primitives store values directly in memory (stack).
+- They are fast and efficient.
+- Each has a fixed size
+
+3 Non‑Primitive (Reference) Data Types
+  Strings
+- Analogy: A sentence locker that holds words.
+- Technical: Objects of String class, immutable.
+  String name = "Shaminder";
+
+
+  Arrays
+- Analogy: A row of lockers all of the same type.
+- Technical: Fixed‑size collection of elements.
+  int[] marks = {90, 85, 88};
+
+
+
+Final Takeaway for Students
+- Data types define what kind of data a variable can hold.
+- Primitive types (8) → basic lockers with fixed size.
+- Non‑primitive types → advanced lockers storing references, flexible, can have methods.
+- Memory model: Primitives → stack; References → heap.
+
+
+
+
+Data Types in Java
+│
+├── Primitive (8 types)
+│   ├── Numeric
+│   │   ├── Integer Types
+│   │   │   ├── byte (1 byte)
+│   │   │   ├── short (2 bytes)
+│   │   │   ├── int (4 bytes)
+│   │   │   └── long (8 bytes)
+│   │   └── Floating-Point Types
+│   │       ├── float (4 bytes, ~7 digits precision)
+│   │       └── double (8 bytes, ~15 digits precision)
+│   │
+│   ├── Character
+│   │   └── char (2 bytes, Unicode)
+│   │
+│   └── Boolean
+│       └── boolean (true/false)
+│
+└── Non-Primitive (Reference Types)
+    ├── String
+    ├── Array
+    ├── Class
+    ├── Object
+    ├── Interface
+    ├── Collections (ArrayList, HashMap, etc.)
+    └── Wrapper Classes (Integer, Double, etc.)
+
+
+

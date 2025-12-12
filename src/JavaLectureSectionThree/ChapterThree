@@ -1,0 +1,55 @@
+Rules for Identifiers in Java
+ 1. Allowed Characters
+- Can contain letters (A–Z, a–z), digits (0–9), underscore _, and dollar sign $.
+- Analogy: Think of identifiers as name tags on lockers — you can use letters, numbers, or simple symbols like _ and $.
+
+ 2. Must Start Correctly
+- Must start with a letter, underscore _, or dollar $.
+- Cannot start with a digit.
+- Analogy: A locker name cannot start with a number (like 123locker), it must start with a proper tag.
+ Valid: age, _count, $salary
+ Invalid: 1value
+
+ 3. Case Sensitivity
+- Java identifiers are case‑sensitive.
+- Age and age are different identifiers.
+- Analogy: Two lockers with “Age” and “age” are treated as separate lockers.
+
+ 4. No Reserved Keywords
+- Cannot use Java keywords (like class, int, static) as identifiers.
+- Analogy: You can’t name your locker “Principal” if that word is already reserved for the school.
+ Invalid: int class = 5;
+
+ 5. No Spaces or Special Symbols
+- Cannot contain spaces or symbols like @, #, %, !.
+- Analogy: Locker names must be clean and simple — no emojis or special marks.
+ Invalid: student name, roll#no
+
+ 6. Length
+- No fixed limit, but should be reasonable and readable.
+- Analogy: A locker name can be long, but shorter names are easier to find.
+
+ 7. Convention (Best Practices)
+- Variables & methods: start with lowercase → studentName, calculateMarks()
+- Classes & interfaces: start with uppercase → Student, Runnable
+- Constants: all uppercase with underscores → MAX_VALUE
+
+ Examples
+// Valid identifiers
+int age;
+double salaryAmount;
+String studentName;
+final int MAX_MARKS = 100;
+
+// Invalid identifiers
+int 123abc;     // starts with digit
+int roll#no;    // contains special symbol
+int class;      // keyword used
+
+
+
+ Final Takeaway
+- Identifiers are names for lockers in memory.
+- They must follow strict rules: start correctly, avoid keywords, no spaces/symbols, case‑sensitive.
+- Follow conventions for clarity and professionalism.
+

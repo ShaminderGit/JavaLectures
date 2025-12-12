@@ -1,0 +1,56 @@
+Variables and Memory Basics
+
+Memory in Computing
+What is Memory?
+- Memory is the workspace of a computer where data and instructions are stored so the CPU can use them.
+- It’s temporary (RAM) or permanent (Disk/SSD).
+ Analogy
+Think of memory as a student’s desk and bookshelf:
+- Desk (RAM): Books and notes you’re using right now — fast but cleared when you leave.
+- Bookshelf (Hard Drive/SSD): Permanent storage — books remain even after you leave.
+- Sticky notes (Cache): Quick reminders right on the desk — very fast, but small.
+
+
+Variables in Java
+What is a Variable?
+- A variable is a named storage location in memory that holds data while your program runs.
+- It has:
+- Name (identifier): The label.
+- Type: Defines what kind of data it can store (int, double, String).
+- Value: The actual data stored.
+
+int age = 20;        // variable 'age' stores number 20
+String name = "NIT"; // variable 'name' stores text
+
+Analogy
+Think of a variable as a locker in a hostel:
+- Locker name tag: Variable name.
+- Locker type: What kind of item it can hold (numbers, text, etc.).
+- Locker contents: The actual value stored.
+
+
+Types of Variables
+- Local Variables → Notes on your desk (exist only while you’re studying).
+- Instance Variables → Personal locker (unique to each student/object).
+- Static Variables → Notice board in hostel (shared by everyone).
+
+ Primitive vs Reference Variables
+- Primitive Variables: Store actual values directly (like a book inside the locker).
+- Reference Variables: Store an address pointing to another room
+ (locker has a note with directions to where the object is stored in heap).
+Example:
+int a = 10;             // primitive, value stored directly
+String str = "Hello";   // reference, points to object in heap
+
+Final Takeaway
+- Memory = workspace (desk, bookshelf, sticky notes).
+- Variable = named locker in memory.
+- Primitive variables = store values directly.
+- Reference variables = store addresses pointing to objects.
+- Variables can be local, instance, or static depending on where they’re declared.
+
+
+
+
+
+

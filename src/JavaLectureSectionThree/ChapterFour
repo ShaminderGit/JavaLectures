@@ -1,0 +1,33 @@
+Literals in Java
+
+ Definition
+- A literal is a fixed value that you write directly in your code.
+- It represents the actual data that gets stored in a variable.
+- Unlike variables (which are named storage), literals are the raw values themselves.
+ Example:
+int age = 25;        // here 25 is a literal
+char grade = 'A';    // 'A' is a literal
+boolean isActive = true; // true is a literal
+
+ Analogy
+Think of literals as the items you put inside lockers (variables):
+- The locker (variable) has a name and type.
+- The item (literal) is the actual value you place inside.
+- Example: Locker named age → item placed inside = 25.
+
+Literals in Java
+│
+├── Integer Literals
+│   ├── Decimal (100)
+│   ├── Octal (010)
+│   ├── Hexadecimal (0x1A)
+│   └── Binary (0b1010)
+│
+├── Floating-Point Literals
+│   ├── double (3.14)
+│   └── float (2.5f)
+│
+├── Character Literals ('A', '\n')
+├── String Literals ("Hello")
+├── Boolean Literals (true, false)
+└── Null Literal (null)

@@ -1,0 +1,94 @@
+Escape Sequences in Java
+
+ What are Escape Sequences?
+- An escape sequence is a special command inside a string or character literal that starts with a backslash \.
+- It tells Java to do something special instead of just printing the symbol.
+- They are used to format output or include special characters.
+Example:
+System.out.println("Hello\nWorld");
+Output:
+Hello
+World
+
+Here \n makes the text move to a new line.
+
+
+ Common Escape Sequences in Java (with Examples)
+
+1. \n → New Line
+Moves the cursor to the next line.
+System.out.println("Hello\nWorld");
+
+
+Output:
+Hello
+World
+
+
+
+2. \t → Tab Space
+Adds a horizontal tab space.
+System.out.println("A\tB\tC");
+
+
+Output:
+A    B    C
+
+
+(Spaces depend on tab size, usually 4–8 spaces.)
+
+3 \" → Double Quote
+Allows double quotes inside a string.
+System.out.println("She said \"Hello\"");
+
+
+Output:
+She said "Hello"
+
+
+4 \' → Single Quote
+Allows single quotes inside a string.
+System.out.println("It\'s Java");
+
+
+Output:
+It's Java
+
+
+5 \\ → Backslash
+Prints a single backslash.
+System.out.println("C:\\Users\\Shaminder");
+
+
+Output:
+C:\Users\Shaminder
+
+
+6 \r → Carriage Return
+Moves the cursor to the start of the line. Characters after \r overwrite what was before.
+System.out.println("Hello\rWorld");
+
+
+Output:
+World
+
+
+
+8 \b → Backspace
+Removes the previous character.
+System.out.println("ABC\bD");
+
+
+Output:
+ABD
+
+
+(\b erased the C before printing D.)
+
+
+ Final Takeaway
+- Escape sequences are special codes starting with \.
+- They let you format output or include special characters inside strings.
+- Most useful ones: \n (new line), \t (tab), \" (quotes), \\ (backslash).
+
+
