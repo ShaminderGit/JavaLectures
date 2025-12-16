@@ -1,0 +1,47 @@
+Section 4
+
+Chapter One
+
+Assignment Operators in Java
+1. What They Are
+- Assignment operators are used to assign values to variables.
+- The basic operator is = which simply stores the value on the right-hand side into the variable on the left-hand side.
+Example:
+int a = 10;   // assigns 10 to variable a
+
+2. Types of Assignment Operators
+Java provides compound assignment operators that combine arithmetic/bitwise operations with assignment:
+-
+= → Simple assignment
+int x = 5; // assigns 5 to x
+-
++= → Add and assign
+x += 3; // x = x + 3
+-
+-= → Subtract and assign
+x -= 2; // x = x - 2
+-
+*= → Multiply and assign
+x *= 4; // x = x * 4
+-
+/= → Divide and assign
+x
+/= 2; // x = x / 2
+-
+%= → Modulus and assign
+x %= 3; // x = x % 3
+-
+Bitwise compound assignments:
+- &= (AND and assign)
+- |= (OR and assign)
+- ^= (XOR and assign)
+- <<= (Left shift and assign)
+- >>= (Right shift and assign)
+- >>>= (Unsigned right shift and assign)
+
+3. Why They’re Useful
+- Concise code: Instead of writing x = x + 5;, you can write x += 5;.
+- Readability: Makes intent clearer when performing operations and updating the same variable.
+- Efficiency: Slightly reduces redundancy in code.
+
+

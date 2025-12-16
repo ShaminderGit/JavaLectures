@@ -1,0 +1,59 @@
+SectionFour
+
+Chapter Two
+
+Lecture: Arithmetic Operators in Java
+1. Introduction
+Arithmetic operators are the basic symbols we use in Java to perform mathematical calculations.
+They work on primitive data types like int, float, double, and long.
+Think of them as the everyday math tools you already know, but now applied inside code.
+
+2. The Operators Explained
+- Addition (+)
+Used to add two values together.
+Example: 5 + 3 gives 8.
+- Subtraction (-)
+Used to subtract one value from another.
+Example: 10 - 4 gives 6.
+- Multiplication (*)
+Used to multiply two values.
+Example: 7 * 2 gives 14.
+- Division (/)
+Used to divide one value by another.
+Example: 10 / 2 gives 5.
+ Important: If both numbers are integers, the result will also be an integer
+ (fractional part is discarded). For example, 10 / 3 gives 3, not 3.33.
+- Modulus (%)
+Used to find the remainder after division.
+Example: 10 % 3 gives 1.
+This operator is very useful for checking divisibility or working with cycles (like days of the week).
+
+3. Code Demonstration
+public class ArithmeticDemo {
+    public static void main(String[] args) {
+        int a = 10, b = 3;
+
+        System.out.println("Addition: " + (a + b));
+        System.out.println("Subtraction: " + (a - b));
+        System.out.println("Multiplication: " + (a * b));
+        System.out.println("Division: " + (a / b)); // integer division
+        System.out.println("Modulus: " + (a % b));
+    }
+}
+
+
+Output:
+Addition: 13
+Subtraction: 7
+Multiplication: 30
+Division: 3
+Modulus: 1
+
+
+
+4. Key Notes for Students
+- Integer division discards decimals.
+- Use floating-point numbers (double or float) if you want precise division results.
+- The modulus operator is especially handy for problems like checking if
+  a number is even (n % 2 == 0) or odd (n % 2 != 0).
+

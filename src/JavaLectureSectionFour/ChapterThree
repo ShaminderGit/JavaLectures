@@ -1,0 +1,12 @@
+Section Four
+Chapter Three
+
+Order of Operators in Java
+
+When we write expressions in Java, the computer must decide which operation to perform first.
+This is called operator precedence.
+It’s the same idea you learned in math with BODMAS/PEMDAS rules:
+- Brackets
+- Division/Multiplication
+- Addition/Subtraction
+

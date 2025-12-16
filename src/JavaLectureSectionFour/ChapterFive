@@ -1,0 +1,38 @@
+Section Four
+Chapter Five
+
+Unary Operators in Java
+1. Introduction
+- Unary operators are operators that work on a single operand.
+- They perform simple operations like incrementing, decrementing, or changing the sign of a value.
+- Think of them as “one‑handed tools” — they only need one value to work.
+
+2. Types of Unary Operators
+- Unary Plus (+)
+- Indicates a positive value (rarely used explicitly).
+- Example: +5 is just 5.
+- Unary Minus (-)
+- Changes the sign of a number.
+- Example:
+int x = 5;
+System.out.println(-x); // prints -5
+- Increment (++)
+- Increases a value by 1.
+- Two forms:
+- Prefix: ++x → increments first, then uses the value.
+- Postfix: x++ → uses the value first, then increments.
+- Decrement (--)
+- Decreases a value by 1.
+- Two forms:
+- Prefix: --x → decrements first, then uses the value.
+- Postfix: x-- → uses the value first, then decrements.
+- Logical NOT (!)
+- Flips a boolean value.
+- Example:
+boolean flag = true;
+System.out.println(!flag); // prints false
+
+
+
+
+

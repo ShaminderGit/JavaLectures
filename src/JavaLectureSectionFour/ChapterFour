@@ -1,0 +1,38 @@
+Section Four
+Chapter Four
+
+Shorthand Assignment Operators
+Java provides combined operators that perform an operation and assignment in one step:
+- += → Add and assign
+x += 5; // same as x = x + 5
+- -= → Subtract and assign
+x -= 3; // same as x = x - 3
+- *= → Multiply and assign
+x *= 2; // same as x = x * 2
+- /= → Divide and assign
+x /= 4; // same as x = x / 4
+- %= → Modulus and assign
+x %= 3; // same as x = x % 3
+
+
+
+3. Example Program
+public class AssignmentDemo {
+    public static void main(String[] args) {
+        int x = 10;
+
+        x += 5;  // x = 15
+        x -= 3;  // x = 12
+        x *= 2;  // x = 24
+        x /= 4;  // x = 6
+        x %= 5;  // x = 1
+
+        System.out.println("Final value of x: " + x);
+    }
+}
+
+
+
+4. Key Takeaway
+- Shorthand assignment operators make code shorter and cleaner.
+- They are widely used in loops, counters, and mathematical calculations.
