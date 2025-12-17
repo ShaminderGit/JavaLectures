@@ -1,0 +1,37 @@
+Lecture: If-Else Statement in Java
+
+1. Introduction
+- In programming, we often need to make decisions.
+- Java provides the if-else statement to control the flow of execution based on conditions.
+
+2. Syntax
+if (condition) {
+    // code runs if condition is true
+} else {
+    // code runs if condition is false
+}
+
+
+
+3. Example
+int number = 5;
+
+if (number % 2 == 0) {
+    System.out.println("Even number");
+} else {
+    System.out.println("Odd number");
+}
+
+
+Output:
+Odd number
+
+
+
+4. Variations
+- if only → checks one condition.
+- if-else → two possible paths.
+- if-else-if ladder → multiple conditions.
+- nested if → one if inside another.
+
+

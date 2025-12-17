@@ -1,0 +1,53 @@
+
+Relational Operators in Java
+1. Introduction
+- Relational operators are used to compare two values in Java.
+- The result of any relational operation is always a boolean: either true or false.
+- They are commonly used in decision-making statements like if, while, and for.
+
+2. Types of Relational Operators
+Let’s go through them one by one:
+- Equal to (==) → Checks if two values are the same.
+Example: 5 == 5 → true
+- Not equal to (!=) → Checks if two values are different.
+Example: 5 != 3 → true
+- Greater than (>) → Checks if the left value is larger than the right.
+Example: 7 > 4 → true
+- Less than (<) → Checks if the left value is smaller than the right.
+Example: 2 < 8 → true
+- Greater than or equal to (>=) → True if the left value is larger or equal.
+Example: 6 >= 6 → true
+- Less than or equal to (<=) → True if the left value is smaller or equal.
+Example: 3 <= 5 → true
+
+3. Example Program
+public class RelationalExample {
+    public static void main(String[] args) {
+        int a = 10, b = 20;
+
+        System.out.println(a == b);  // false
+        System.out.println(a != b);  // true
+        System.out.println(a > b);   // false
+        System.out.println(a < b);   // true
+        System.out.println(a >= b);  // false
+        System.out.println(a <= b);  // true
+    }
+}
+
+
+Output:
+false
+true
+false
+true
+false
+true
+
+
+
+4. Key Points
+- Always return true or false.
+- Used heavily in loops and conditional statements.
+- For objects like Strings, use .equals() instead of == to compare values.
+- Order of relational operators is less that arithmetic operators.
+

@@ -1,0 +1,59 @@
+Logical Operators in Java
+1. Introduction
+- Logical operators are used to combine or manipulate boolean values (true or false).
+- They are most often used in decision-making statements like if, while, and for.
+- Think of them as tools to check multiple conditions at once.
+
+2. Types of Logical Operators
+- AND (&&)
+- Returns true only if both conditions are true.
+- Example: (5 > 2 && 10 > 3) → true
+- OR (||)
+- Returns true if at least one condition is true.
+- Example: (5 > 2 || 10 < 3) → true
+- NOT (!)
+- Reverses the boolean value.
+- Example: !(5 > 2) → false
+
+3. Example Program
+public class LogicalExample {
+    public static void main(String[] args) {
+        int age = 20;
+        boolean citizen = true;
+
+        // AND operator
+        if (age >= 18 && citizen) {
+            System.out.println("Eligible to vote");
+        }
+
+        // OR operator
+        if (age < 18 || !citizen) {
+            System.out.println("Not eligible to vote");
+        }
+
+        // NOT operator
+        boolean isMinor = !(age >= 18);
+        System.out.println("Is minor: " + isMinor);
+    }
+}
+
+
+Output:
+Eligible to vote
+Is minor: false
+
+
+
+4. Analogy 🎓
+Think of logical operators like teamwork rules:
+- AND (&&) → Both teammates must agree before action happens.
+- OR (||) → If at least one agrees, action happens.
+- NOT (!) → Flips the decision (yes becomes no, no becomes yes).
+
+5. Key Points
+- Logical operators work only with boolean values.
+- They are essential for complex conditions in programs.
+- Often combined with relational operators (like <, >, ==) to make decisions.
+
+✅ That’s the basic lecture.
+Would you like me to also prepare a mini practice quiz on logical operators so your students can immediately test their understanding?
